@@ -29,7 +29,7 @@
                              NSDayCalendarUnit|NSHourCalendarUnit|
                              NSMinuteCalendarUnit|NSSecondCalendarUnit;
     NSDateComponents* date = [calendar components:unitFlag fromDate:[NSDate date]];
-    NSString* dateString   = [NSString stringWithFormat:@"%04d/%02d/%02d %02d:%02d:%02d",
+    NSString* dateString   = [NSString stringWithFormat:@"%04ld/%02ld/%02ld %02ld:%02ld:%02ld",
                               date.year,
                               date.month,
                               date.day,
